@@ -1,0 +1,84 @@
+{"kind":"deck","id":"pr/roum3m","name":"Deck"}
+{"kind":"layout","layoutId":"7cd38dec-d189-4673-bb0d-9cefe2180cd2","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"2232a584-dac0-4687-8204-dc533f940063","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ea8auq","slide":1,"title":"基于 Kubernetes 的智能算力服务化平台","textShapes":50}
+{"kind":"shape","id":"sh/nqhkzmdg","slide":1,"name":"header","bbox":[0,0,1920,112]}
+{"kind":"textbox","id":"sh/orqls7u1","slide":1,"name":"title","text":"基于 Kubernetes 的智能算力服务化平台","textPreview":"基于 Kubernetes 的智能算力服务化平台","textChars":24,"textLines":1,"bbox":[72,18,1180,58]}
+{"kind":"textbox","id":"sh/psz21cv6","slide":1,"name":"subtitle","text":"镜像标准化 · GitOps 自动交付 · 多租户资源隔离 · 统一流量治理 · 全栈可观测","textPreview":"镜像标准化 · GitOps 自动交付 · 多租户资源隔离 · 统一流量治理 · 全栈可观测","textChars":46,"textLines":1,"bbox":[74,76,1100,27]}
+{"kind":"shape","id":"sh/e1o3mxcj","slide":1,"name":"cyan-divider","bbox":[0,105,1920,7]}
+{"kind":"textbox","id":"sh/f2xkv2d4","slide":1,"name":"target-state","text":"目标态架构","textPreview":"目标态架构","textChars":5,"textLines":1,"bbox":[1720,30,140,52]}
+{"kind":"textbox","id":"sh/036lo7up","slide":1,"name":"layer-访问层","text":"访问层","textPreview":"访问层","textChars":3,"textLines":1,"bbox":[36,145,128,102]}
+{"kind":"textbox","id":"sh/14f2xcva","slide":1,"name":"layer-平台控制层","text":"平台控制层","textPreview":"平台控制层","textChars":5,"textLines":1,"bbox":[36,270,128,245]}
+{"kind":"textbox","id":"sh/qx4jixcn","slide":1,"name":"layer-交付链路","text":"交付链路","textPreview":"交付链路","textChars":4,"textLines":1,"bbox":[36,538,128,139]}
+{"kind":"textbox","id":"sh/rydkr2d8","slide":1,"name":"layer-运行与观测层","text":"运行与观测层","textPreview":"运行与观测层","textChars":6,"textLines":1,"bbox":[36,700,128,284]}
+{"kind":"textbox","id":"sh/ridcjm5g","slide":1,"name":"platform-user","text":"平台用户 / 租户\n控制台 · OpenAPI · CLI","textPreview":"平台用户 / 租户 | 控制台 · OpenAPI · CLI","textChars":29,"textLines":2,"bbox":[205,145,236,102]}
+{"kind":"textbox","id":"sh/6hkbahov","slide":1,"name":"unified-entry","text":"统一访问入口\nIngress · Service · HTTPS / 域名路由","textPreview":"统一访问入口 | Ingress · Service · HTTPS / 域名路由","textChars":39,"textLines":2,"bbox":[563,145,304,102]}
+{"kind":"textbox","id":"sh/tkvulcnm","slide":1,"name":"ai-inference","text":"AI 推理服务\n稳定端点 · 弹性副本 · CPU / GPU 工作负载","textPreview":"AI 推理服务 | 稳定端点 · 弹性副本 · CPU / GPU 工作负载","textChars":36,"textLines":2,"bbox":[1397,145,422,102]}
+{"kind":"shape","id":"sh/sjmdc761","slide":1,"name":"go-control-plane","bbox":[205,270,1614,245]}
+{"kind":"shape","id":"sh/fmdcnm5s","slide":1,"name":"control-plane-header","bbox":[207,272,1610,48]}
+{"kind":"textbox","id":"sh/el4veho7","slide":1,"name":"control-plane-title","text":"Go 平台控制面（REST API + client-go）","textPreview":"Go 平台控制面（REST API + client-go）","textChars":30,"textLines":1,"bbox":[238,276,650,38]}
+{"kind":"shape","id":"sh/1ovupwni","slide":1,"name":"auth-tenant","bbox":[239,343,280,134]}
+{"kind":"textbox","id":"sh/gnmdgr6x","slide":1,"name":"auth-tenant-title","text":"认证与租户管理","textPreview":"认证与租户管理","textChars":7,"textLines":1,"bbox":[249,355,260,31]}
+{"kind":"textbox","id":"sh/vq9cb258","slide":1,"name":"auth-tenant-body","text":"JWT + Redis 会话\n用户 / 租户 / 项目空间","textPreview":"JWT + Redis 会话 | 用户 / 租户 / 项目空间","textChars":29,"textLines":2,"bbox":[249,390,260,78]}
+{"kind":"shape","id":"sh/up0b2xon","slide":1,"name":"image-build","bbox":[551,343,280,134]}
+{"kind":"textbox","id":"sh/y58fa58b","slide":1,"name":"image-build-title","text":"镜像构建服务","textPreview":"镜像构建服务","textChars":6,"textLines":1,"bbox":[561,355,260,31]}
+{"kind":"textbox","id":"sh/z6hgjapw","slide":1,"name":"image-build-body","text":"Dockerfile 模板化\n异步任务 · 构建日志 · 制品交付","textPreview":"Dockerfile 模板化 | 异步任务 · 构建日志 · 制品交付","textChars":33,"textLines":2,"bbox":[561,390,260,78]}
+{"kind":"shape","id":"sh/07qxcvqh","slide":1,"name":"k8s-orchestrator","bbox":[863,343,336,134]}
+{"kind":"textbox","id":"sh/l8zyl072","slide":1,"name":"k8s-orchestrator-title","text":"Kubernetes 编排器","textPreview":"Kubernetes 编排器","textChars":14,"textLines":1,"bbox":[873,355,316,31]}
+{"kind":"textbox","id":"sh/qhof6l8f","slide":1,"name":"k8s-orchestrator-body","text":"Namespace · Quota · LimitRange\nServiceAccount · RBAC · CPU / 内存 / GPU","textPreview":"Namespace · Quota · LimitRange | ServiceAccount · RBAC · CPU / 内存 / GPU","textChars":69,"textLines":2,"bbox":[873,390,316,78]}
+{"kind":"shape","id":"sh/bihwfqp0","slide":1,"name":"gitops-manager","bbox":[1231,343,268,134]}
+{"kind":"textbox","id":"sh/c3qx8vq5","slide":1,"name":"gitops-manager-title","text":"GitOps 发布管理","textPreview":"GitOps 发布管理","textChars":11,"textLines":1,"bbox":[1241,355,248,31]}
+{"kind":"textbox","id":"sh/d4zeh07q","slide":1,"name":"gitops-manager-body","text":"配置生成 · 版本追踪\n发布 / 回滚 / 状态同步","textPreview":"配置生成 · 版本追踪 | 发布 / 回滚 / 状态同步","textChars":26,"textLines":2,"bbox":[1241,390,248,78]}
+{"kind":"shape","id":"sh/2dof2l83","slide":1,"name":"service-governance","bbox":[1531,343,254,134]}
+{"kind":"textbox","id":"sh/3exwb6po","slide":1,"name":"service-governance-title","text":"服务治理","textPreview":"服务治理","textChars":4,"textLines":1,"bbox":[1541,355,234,31]}
+{"kind":"textbox","id":"sh/58nihor6","slide":1,"name":"service-governance-body","text":"Service / Ingress\n健康检查 · 路由策略","textPreview":"Service / Ingress | 健康检查 · 路由策略","textChars":29,"textLines":2,"bbox":[1541,390,234,78]}
+{"kind":"shape","id":"sh/k7uhojal","slide":1,"name":"source-assets","bbox":[205,538,294,139]}
+{"kind":"textbox","id":"sh/j6l0fe90","slide":1,"name":"source-assets-title","text":"源码与模型资产","textPreview":"源码与模型资产","textChars":7,"textLines":1,"bbox":[215,550,274,31]}
+{"kind":"textbox","id":"sh/i5czm9sv","slide":1,"name":"source-assets-body","text":"Git 仓库 · 模型文件 · Dockerfile\n提交触发构建 / 发布","textPreview":"Git 仓库 · 模型文件 · Dockerfile | 提交触发构建 / 发布","textChars":38,"textLines":2,"bbox":[215,585,274,83]}
+{"kind":"shape","id":"sh/x43id4ra","slide":1,"name":"docker-pipeline","bbox":[565,538,271,139]}
+{"kind":"textbox","id":"sh/w3uhkzap","slide":1,"name":"docker-pipeline-title","text":"Docker 构建流水线","textPreview":"Docker 构建流水线","textChars":12,"textLines":1,"bbox":[575,550,251,31]}
+{"kind":"textbox","id":"sh/v2l0bu94","slide":1,"name":"docker-pipeline-body","text":"标准基础镜像 · 依赖固化\n异步构建 + 镜像扫描","textPreview":"标准基础镜像 · 依赖固化 | 异步构建 + 镜像扫描","textChars":25,"textLines":2,"bbox":[575,585,251,83]}
+{"kind":"shape","id":"sh/a1czi9sj","slide":1,"name":"harbor","bbox":[902,538,238,139]}
+{"kind":"textbox","id":"sh/90ji94ry","slide":1,"name":"harbor-title","text":"Harbor","textPreview":"Harbor","textChars":6,"textLines":1,"bbox":[912,550,218,31]}
+{"kind":"textbox","id":"sh/8zahgzad","slide":1,"name":"harbor-body","text":"私有镜像仓库\nTag / 版本 / 制品交付","textPreview":"私有镜像仓库 | Tag / 版本 / 制品交付","textChars":22,"textLines":2,"bbox":[912,585,218,83]}
+{"kind":"shape","id":"sh/o329g3qp","slide":1,"name":"git-config","bbox":[1206,538,242,139]}
+{"kind":"textbox","id":"sh/94vqp8ra","slide":1,"name":"git-config-title","text":"Git 配置仓库","textPreview":"Git 配置仓库","textChars":8,"textLines":1,"bbox":[1216,550,222,31]}
+{"kind":"textbox","id":"sh/m1kretsj","slide":1,"name":"git-config-body","text":"租户化 YAML 清单\n唯一事实源 · 可审计回滚","textPreview":"租户化 YAML 清单 | 唯一事实源 · 可审计回滚","textChars":25,"textLines":2,"bbox":[1216,585,222,83]}
+{"kind":"shape","id":"sh/n2t8ny94","slide":1,"name":"argocd-appset","bbox":[1514,538,305,139]}
+{"kind":"textbox","id":"sh/w7m9k3ql","slide":1,"name":"argocd-appset-title","text":"Argo CD ApplicationSet","textPreview":"Argo CD ApplicationSet","textChars":22,"textLines":1,"bbox":[1524,550,285,31]}
+{"kind":"textbox","id":"sh/x8vqt8r6","slide":1,"name":"argocd-appset-body","text":"按租户生成 Application\n自动同步 · 漂移修复 · 回滚","textPreview":"按租户生成 Application | 自动同步 · 漂移修复 · 回滚","textChars":34,"textLines":2,"bbox":[1524,585,285,83]}
+{"kind":"shape","id":"sh/a54rid8f","slide":1,"name":"kubernetes-cluster","bbox":[205,700,1188,284]}
+{"kind":"textbox","id":"sh/b6d8ri90","slide":1,"name":"cluster-title","text":"Kubernetes 智能算力集群","textPreview":"Kubernetes 智能算力集群","textChars":17,"textLines":1,"bbox":[238,714,500,38]}
+{"kind":"shape","id":"sh/cbip8jah","slide":1,"name":"tenant-a","bbox":[239,761,548,184]}
+{"kind":"shape","id":"sh/dcbqhor2","slide":1,"name":"tenant-b","bbox":[811,761,548,184]}
+{"kind":"textbox","id":"sh/fqhcnmtk","slide":1,"name":"tenant-a-head","text":"Tenant A Namespace","textPreview":"Tenant A Namespace","textChars":18,"textLines":1,"bbox":[255,777,516,36]}
+{"kind":"textbox","id":"sh/u58behsz","slide":1,"name":"tenant-b-head","text":"Tenant B Namespace","textPreview":"Tenant B Namespace","textChars":18,"textLines":1,"bbox":[827,777,516,36]}
+{"kind":"textbox","id":"sh/hszupwbq","slide":1,"name":"tenant-a-resources","text":"ServiceAccount + RoleBinding\nResourceQuota + LimitRange\nDeployment / Pod","textPreview":"ServiceAccount + RoleBinding | ResourceQuota + LimitRange | Deployment / Pod","textChars":72,"textLines":3,"bbox":[267,831,275,93]}
+{"kind":"textbox","id":"sh/grqtgra5","slide":1,"name":"tenant-b-resources","text":"ServiceAccount + RoleBinding\nResourceQuota + LimitRange\nDeployment / Pod","textPreview":"ServiceAccount + RoleBinding | ResourceQuota + LimitRange | Deployment / Pod","textChars":72,"textLines":3,"bbox":[839,831,275,93]}
+{"kind":"textbox","id":"sh/72xcj2t8","slide":1,"name":"service-a","text":"推理服务 A\nCPU / GPU · Service","textPreview":"推理服务 A | CPU / GPU · Service","textChars":26,"textLines":2,"bbox":[551,832,196,83]}
+{"kind":"textbox","id":"sh/61obahsn","slide":1,"name":"service-b","text":"推理服务 B\nCPU / GPU · Service","textPreview":"推理服务 B | CPU / GPU · Service","textChars":26,"textLines":2,"bbox":[1123,832,196,83]}
+{"kind":"shape","id":"sh/t4zulcbe","slide":1,"name":"observability","bbox":[1423,700,396,284]}
+{"kind":"textbox","id":"sh/s3qtc7at","slide":1,"name":"observability-title","text":"可观测与告警中心","textPreview":"可观测与告警中心","textChars":8,"textLines":1,"bbox":[1455,714,330,38]}
+{"kind":"textbox","id":"sh/jyxsf2tc","slide":1,"name":"prometheus","text":"Prometheus\n集群 / 服务 / 推理指标采集","textPreview":"Prometheus | 集群 / 服务 / 推理指标采集","textChars":27,"textLines":2,"bbox":[1457,765,328,66]}
+{"kind":"textbox","id":"sh/ixob6xcr","slide":1,"name":"grafana","text":"Grafana\n多租户看板","textPreview":"Grafana | 多租户看板","textChars":13,"textLines":2,"bbox":[1457,846,158,91]}
+{"kind":"textbox","id":"sh/mt4vixwj","slide":1,"name":"alert-rules","text":"Alert Rules\n资源 / 延迟\n流量 / 异常","textPreview":"Alert Rules | 资源 / 延迟 | 流量 / 异常","textChars":27,"textLines":3,"bbox":[1627,846,158,91]}
+{"kind":"shape","id":"sh/nudcr2d4","slide":1,"bbox":[441,196,122,0]}
+{"kind":"shape","id":"sh/ovmdk7ep","slide":1,"bbox":[867,196,530,0]}
+{"kind":"shape","id":"sh/9wfutcva","slide":1,"bbox":[379,247,336,96]}
+{"kind":"shape","id":"sh/axovmxwv","slide":1,"bbox":[499,607.5,66,0]}
+{"kind":"shape","id":"sh/vyxcv2dg","slide":1,"bbox":[836,607.5,66,0]}
+{"kind":"shape","id":"sh/wz6do7el","slide":1,"bbox":[1140,607.5,66,0]}
+{"kind":"shape","id":"sh/x0fuxcv6","slide":1,"bbox":[1448,607.5,66,0]}
+{"kind":"shape","id":"sh/i1ovqhwr","slide":1,"bbox":[799,677,867.5,23]}
+{"kind":"shape","id":"sh/j2xczmdc","slide":1,"bbox":[1221,247,387,585]}
+{"kind":"shape","id":"sh/twjypgfe","slide":1,"bbox":[1393,842,30,0]}
+{"kind":"shape","id":"sh/svaxwbyt","slide":1,"bbox":[1621,831,85,15]}
+{"kind":"textbox","id":"sh/7uhwn6xo","slide":1,"name":"flow-1","text":"① 登录 / 创建服务","textPreview":"① 登录 / 创建服务","textChars":11,"textLines":1,"bbox":[470,247,240,28]}
+{"kind":"textbox","id":"sh/6t8fu1g3","slide":1,"name":"flow-2","text":"② 构建","textPreview":"② 构建","textChars":4,"textLines":1,"bbox":[630,512,120,28]}
+{"kind":"textbox","id":"sh/hkjytgfq","slide":1,"name":"flow-3","text":"③ 推送镜像","textPreview":"③ 推送镜像","textChars":6,"textLines":1,"bbox":[958,512,150,28]}
+{"kind":"textbox","id":"sh/gjax0vy5","slide":1,"name":"flow-4","text":"④ 写入声明","textPreview":"④ 写入声明","textChars":6,"textLines":1,"bbox":[1260,512,150,28]}
+{"kind":"textbox","id":"sh/fy1grqxk","slide":1,"name":"flow-5","text":"⑤ 持续同步","textPreview":"⑤ 持续同步","textChars":6,"textLines":1,"bbox":[1602,512,150,28]}
+{"kind":"textbox","id":"sh/uxsfylgz","slide":1,"name":"flow-6","text":"⑥ JWT 鉴权后按域名 / 路径路由","textPreview":"⑥ JWT 鉴权后按域名 / 路径路由","textChars":19,"textLines":1,"bbox":[1022,161,390,30]}
+{"kind":"textbox","id":"sh/po3yx0fm","slide":1,"name":"flow-7","text":"⑦ Metrics","textPreview":"⑦ Metrics","textChars":9,"textLines":1,"bbox":[1363,872,115,28]}
+{"kind":"textbox","id":"sh/4nux4vy1","slide":1,"name":"security-footer","text":"双层安全体系：平台层 JWT + Redis 认证　｜　集群层 Kubernetes RBAC 授权　｜　Namespace 级资源与权限隔离","textPreview":"双层安全体系：平台层 JWT + Redis 认证　｜　集群层 Kubernetes RBAC 授权　｜　Namespace 级资源与权限隔离","textChars":71,"textLines":1,"bbox":[205,1006,1614,48]}
+{"kind":"notes","id":"nt/ea8auq","slide":1,"text":"[Sources]\n- User-provided project description and previously created architecture visual; no external sources."}

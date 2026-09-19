@@ -1,0 +1,4192 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/c8f4ct",
+    "id": "c8f4ct",
+    "slide": 1,
+    "layoutId": "7b884507-a306-4552-a007-d76e9c738840",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "5df134c2-b309-448d-aade-1ad08f61db22",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F6F9FC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7b884507-a306-4552-a007-d76e9c738840",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "5df134c2-b309-448d-aade-1ad08f61db22",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "5df134c2-b309-448d-aade-1ad08f61db22",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7mpgja5",
+      "id": "1",
+      "name": "header",
+      "bbox": [
+        0,
+        0,
+        1920,
+        112
+      ],
+      "geometry": "rect",
+      "fillColor": "#0B4F93",
+      "lineColor": "#0B4F93",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r6t8netk",
+      "id": "2",
+      "name": "title",
+      "bbox": [
+        72,
+        18,
+        1180,
+        58
+      ],
+      "geometry": "rect",
+      "text": "基于 Kubernetes 的智能算力服务化平台",
+      "textPreview": "基于 Kubernetes 的智能算力服务化平台",
+      "resolvedFontSize": 41.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 50,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "基于 Kubernetes 的智能算力服务化平台"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "基于 Kubernetes 的智能算力服务化平台",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "基于 Kubernetes 的智能算力服务化平台",
+              "fontSize": 50,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5k7e9sz",
+      "id": "3",
+      "name": "subtitle",
+      "bbox": [
+        74,
+        76,
+        1100,
+        27
+      ],
+      "geometry": "rect",
+      "text": "镜像标准化 · GitOps 自动交付 · 多租户资源隔离 · 统一流量治理 · 全栈可观测",
+      "textPreview": "镜像标准化 · GitOps 自动交付 · 多租户资源隔离 · 统一流量治理 · 全栈可观测",
+      "resolvedFontSize": 15.83,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Microsoft YaHei",
+        "color": "#D8E9F8",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.75,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "镜像标准化 · GitOps 自动交付 · 多租户资源隔离 · 统一流量治理 · 全栈可观测"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "镜像标准化 · GitOps 自动交付 · 多租户资源隔离 · 统一流量治理 · 全栈可观测",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft YaHei",
+            "color": "#D8E9F8",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "镜像标准化 · GitOps 自动交付 · 多租户资源隔离 · 统一流量治理 · 全栈可观测",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#D8E9F8",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cvqtobm",
+      "id": "4",
+      "name": "cyan-divider",
+      "bbox": [
+        0,
+        105,
+        1920,
+        7
+      ],
+      "geometry": "rect",
+      "fillColor": "#2CB7D7",
+      "lineColor": "#2CB7D7",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bmpk3ah",
+      "id": "5",
+      "name": "target-state",
+      "bbox": [
+        1720,
+        30,
+        140,
+        52
+      ],
+      "geometry": "roundRect",
+      "text": "目标态架构",
+      "textPreview": "目标态架构",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "目标态架构"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "目标态架构",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "目标态架构",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#397CB6",
+      "lineColor": "#397CB6",
+      "lineWidth": 2
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zad8rytw",
+      "id": "6",
+      "name": "layer-访问层",
+      "bbox": [
+        36,
+        145,
+        128,
+        102
+      ],
+      "geometry": "roundRect",
+      "text": "访问层",
+      "textPreview": "访问层",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "访问层"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "访问层",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "访问层",
+              "fontSize": 25,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#D8EDF9",
+      "lineColor": "#D8EDF9",
+      "lineWidth": 2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e947itsb",
+      "id": "7",
+      "name": "layer-平台控制层",
+      "bbox": [
+        36,
+        270,
+        128,
+        245
+      ],
+      "geometry": "roundRect",
+      "text": "平台控制层",
+      "textPreview": "平台控制层",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "平台控制"
+          },
+          {
+            "index": 2,
+            "text": "层"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "平台控制层",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "平台控制层",
+              "fontSize": 25,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E8E2F6",
+      "lineColor": "#E8E2F6",
+      "lineWidth": 2
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90fqx8by",
+      "id": "8",
+      "name": "layer-交付链路",
+      "bbox": [
+        36,
+        538,
+        128,
+        139
+      ],
+      "geometry": "roundRect",
+      "text": "交付链路",
+      "textPreview": "交付链路",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "交付链路"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "交付链路",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "交付链路",
+              "fontSize": 25,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E2F2EA",
+      "lineColor": "#E2F2EA",
+      "lineWidth": 2
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oz6po3ad",
+      "id": "9",
+      "name": "layer-运行与观测层",
+      "bbox": [
+        36,
+        700,
+        128,
+        284
+      ],
+      "geometry": "roundRect",
+      "text": "运行与观测层",
+      "textPreview": "运行与观测层",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "运行与观"
+          },
+          {
+            "index": 2,
+            "text": "测层"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "运行与观测层",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "运行与观测层",
+              "fontSize": 25,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF0DC",
+      "lineColor": "#FFF0DC",
+      "lineWidth": 2
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5c3u9on",
+      "id": "10",
+      "name": "platform-user",
+      "bbox": [
+        360,
+        145,
+        300,
+        102
+      ],
+      "geometry": "roundRect",
+      "text": "平台用户 / 租户",
+      "textPreview": "平台用户 / 租户",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "平台用户 / 租户"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "平台用户 / 租户",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "平台用户 / 租户",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#7BAFD0",
+      "lineWidth": 2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65kneps",
+      "id": "11",
+      "name": "unified-entry",
+      "bbox": [
+        940,
+        145,
+        420,
+        102
+      ],
+      "geometry": "roundRect",
+      "text": "统一访问入口\nIngress Controller · HTTPS / 域名 / 路径路由",
+      "textPreview": "统一访问入口 | Ingress Controller · HTTPS / 域名 / 路径路由",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "统一访问入口"
+          },
+          {
+            "index": 2,
+            "text": "Ingress Controller · HTTPS / 域名 /"
+          },
+          {
+            "index": 3,
+            "text": "路径路由"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "统一访问入口",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "统一访问入口",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Ingress Controller · HTTPS / 域名 / 路径路由",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ingress Controller · HTTPS / 域名 / 路径路由",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#7BAFD0",
+      "lineWidth": 2
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7elwj6d",
+      "id": "12",
+      "name": "go-control-plane",
+      "bbox": [
+        205,
+        270,
+        1614,
+        245
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#9D8BC2",
+      "lineWidth": 2
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8n2po7y",
+      "id": "13",
+      "name": "control-plane-header",
+      "bbox": [
+        207,
+        272,
+        1610,
+        48
+      ],
+      "geometry": "rect",
+      "fillColor": "#E8E2F6",
+      "lineColor": "#E8E2F6",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9w3ytoj",
+      "id": "14",
+      "name": "control-plane-title",
+      "bbox": [
+        238,
+        276,
+        650,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Go 平台控制面（REST API + client-go）",
+      "textPreview": "Go 平台控制面（REST API + client-go）",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 26,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.96,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Go 平台控制面（REST API + client-go）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Go 平台控制面（REST API + client-go）",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Go 平台控制面（REST API + client-go）",
+              "fontSize": 26,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za5kryp4",
+      "id": "15",
+      "name": "auth-tenant",
+      "bbox": [
+        239,
+        343,
+        425,
+        134
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F4F0FB",
+      "lineColor": "#8C70BF",
+      "lineWidth": 2
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bel0j6p",
+      "id": "16",
+      "name": "auth-tenant-title",
+      "bbox": [
+        249,
+        355,
+        405,
+        31
+      ],
+      "geometry": "rect",
+      "text": "双层身份与租户授权",
+      "textPreview": "双层身份与租户授权",
+      "resolvedFontSize": 19.17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "双层身份与租户授权"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "双层身份与租户授权",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "双层身份与租户授权",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wnmto7a",
+      "id": "17",
+      "name": "auth-tenant-body",
+      "bbox": [
+        249,
+        390,
+        405,
+        78
+      ],
+      "geometry": "rect",
+      "text": "JWT + Redis → 租户身份\n租户 → Namespace + ServiceAccount\nRoleBinding → Role → API Server RBAC 判定",
+      "textPreview": "JWT + Redis → 租户身份 | 租户 → Namespace + ServiceAccount | RoleBinding → Role → API Server RBAC 判定",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "JWT + Redis → 租户身份"
+          },
+          {
+            "index": 2,
+            "text": "租户 → Namespace + ServiceAccount"
+          },
+          {
+            "index": 3,
+            "text": "RoleBinding → Role → API Server RBAC 判定"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "JWT + Redis → 租户身份",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "JWT + Redis → 租户身份",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "租户 → Namespace + ServiceAccount",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "租户 → Namespace + ServiceAccount",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "RoleBinding → Role → API Server RBAC 判定",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RoleBinding → Role → API Server RBAC 判定",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uds3mpof",
+      "id": "18",
+      "name": "image-build",
+      "bbox": [
+        692,
+        343,
+        535,
+        134
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EEF7FD",
+      "lineColor": "#4B9BD3",
+      "lineWidth": 2
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ve1kfup0",
+      "id": "19",
+      "name": "image-build-title",
+      "bbox": [
+        702,
+        355,
+        515,
+        31
+      ],
+      "geometry": "rect",
+      "text": "模型环境标准化与镜像构建",
+      "textPreview": "模型环境标准化与镜像构建",
+      "resolvedFontSize": 19.17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模型环境标准化与镜像构建"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模型环境标准化与镜像构建",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模型环境标准化与镜像构建",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jih0nq5s",
+      "id": "20",
+      "name": "image-build-body",
+      "bbox": [
+        702,
+        390,
+        515,
+        78
+      ],
+      "geometry": "rect",
+      "text": "基础镜像：Python / PyTorch / TensorFlow / CUDA\n代码压缩包 → src/ + 动态 Dockerfile → tar 流\nDocker ImageBuild → 专属镜像 → 租户 Harbor 项目",
+      "textPreview": "基础镜像：Python / PyTorch / TensorFlow / CUDA | 代码压缩包 → src/ + 动态 Dockerfile → tar 流 | Docker ImageBuild → 专属镜像 → 租户 Harbor 项目",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "基础镜像：Python / PyTorch / TensorFlow / CUDA"
+          },
+          {
+            "index": 2,
+            "text": "代码压缩包 → src/ + 动态 Dockerfile → tar 流"
+          },
+          {
+            "index": 3,
+            "text": "Docker ImageBuild → 专属镜像 → 租户 Harbor 项目"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "基础镜像：Python / PyTorch / TensorFlow / CUDA",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "基础镜像：Python / PyTorch / TensorFlow / CUDA",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "代码压缩包 → src/ + 动态 Dockerfile → tar 流",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "代码压缩包 → src/ + 动态 Dockerfile → tar 流",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Docker ImageBuild → 专属镜像 → 租户 Harbor 项目",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Docker ImageBuild → 专属镜像 → 租户 Harbor 项目",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yh8zul47",
+      "id": "21",
+      "name": "k8s-orchestrator",
+      "bbox": [
+        1255,
+        343,
+        530,
+        134
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F1F8F4",
+      "lineColor": "#65A985",
+      "lineWidth": 2
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkzip0ni",
+      "id": "22",
+      "name": "k8s-orchestrator-title",
+      "bbox": [
+        1265,
+        355,
+        510,
+        31
+      ],
+      "geometry": "rect",
+      "text": "Kubernetes 编排与声明式交付",
+      "textPreview": "Kubernetes 编排与声明式交付",
+      "resolvedFontSize": 19.17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kubernetes 编排与声明式交付"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kubernetes 编排与声明式交付",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kubernetes 编排与声明式交付",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjqhwvmx",
+      "id": "23",
+      "name": "k8s-orchestrator-body",
+      "bbox": [
+        1265,
+        390,
+        510,
+        78
+      ],
+      "geometry": "rect",
+      "text": "Deployment：镜像 / 启动命令 / 端口 / CPU / 内存 / GPU\nNamespace · Quota · LimitRange · ServiceAccount / RBAC\nService / Ingress · Git 仓库 · Argo CD 同步",
+      "textPreview": "Deployment：镜像 / 启动命令 / 端口 / CPU / 内存 / GPU | Namespace · Quota · LimitRange · ServiceAccount / RBAC | Service / Ingress · Git 仓库 · Argo C...",
+      "resolvedFontSize": 17.98,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deployment：镜像 / 启动命令 / 端口 / CPU / 内存 / GPU"
+          },
+          {
+            "index": 2,
+            "text": "Namespace · Quota · LimitRange · ServiceAccount / RBAC"
+          },
+          {
+            "index": 3,
+            "text": "Service / Ingress · Git 仓库 · Argo CD 同步"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deployment：镜像 / 启动命令 / 端口 / CPU / 内存 / GPU",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deployment：镜像 / 启动命令 / 端口 / CPU / 内存 / GPU",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Namespace · Quota · LimitRange · ServiceAccount / RBAC",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Namespace · Quota · LimitRange · ServiceAccount / RBAC",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Service / Ingress · Git 仓库 · Argo CD 同步",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Service / Ingress · Git 仓库 · Argo CD 同步",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bex0jq5g",
+      "id": "24",
+      "name": "source-assets",
+      "bbox": [
+        205,
+        538,
+        294,
+        139
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#65A985",
+      "lineWidth": 2
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adozql4v",
+      "id": "25",
+      "name": "source-assets-title",
+      "bbox": [
+        215,
+        550,
+        274,
+        31
+      ],
+      "geometry": "rect",
+      "text": "模型代码压缩包",
+      "textPreview": "模型代码压缩包",
+      "resolvedFontSize": 19.17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模型代码压缩包"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模型代码压缩包",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模型代码压缩包",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgzilgnm",
+      "id": "26",
+      "name": "source-assets-body",
+      "bbox": [
+        215,
+        585,
+        274,
+        83
+      ],
+      "geometry": "rect",
+      "text": ".zip / .tar / .tar.gz / .tgz\n模型代码 · 依赖文件 · 启动脚本",
+      "textPreview": ".zip / .tar / .tar.gz / .tgz | 模型代码 · 依赖文件 · 启动脚本",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": ".zip / .tar / .tar.gz / .tgz"
+          },
+          {
+            "index": 2,
+            "text": "模型代码 · 依赖文件 · 启动脚本"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": ".zip / .tar / .tar.gz / .tgz",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": ".zip / .tar / .tar.gz / .tgz",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "模型代码 · 依赖文件 · 启动脚本",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模型代码 · 依赖文件 · 启动脚本",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wf6hsbm1",
+      "id": "27",
+      "name": "docker-pipeline",
+      "bbox": [
+        565,
+        538,
+        271,
+        139
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#65A985",
+      "lineWidth": 2
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/va10va5k",
+      "id": "28",
+      "name": "docker-pipeline-title",
+      "bbox": [
+        575,
+        550,
+        251,
+        31
+      ],
+      "geometry": "rect",
+      "text": "Docker 构建上下文",
+      "textPreview": "Docker 构建上下文",
+      "resolvedFontSize": 19.17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Docker 构建上下文"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Docker 构建上下文",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Docker 构建上下文",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9sjm54f",
+      "id": "29",
+      "name": "docker-pipeline-body",
+      "bbox": [
+        575,
+        585,
+        251,
+        83
+      ],
+      "geometry": "rect",
+      "text": "tmpDir / Dockerfile + src/\n打包 tar.Reader → ImageBuild",
+      "textPreview": "tmpDir / Dockerfile + src/ | 打包 tar.Reader → ImageBuild",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "tmpDir / Dockerfile + src/"
+          },
+          {
+            "index": 2,
+            "text": "打包 tar.Reader →"
+          },
+          {
+            "index": 3,
+            "text": "ImageBuild"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "tmpDir / Dockerfile + src/",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "tmpDir / Dockerfile + src/",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "打包 tar.Reader → ImageBuild",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "打包 tar.Reader → ImageBuild",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cv2xg72x",
+      "id": "30",
+      "name": "harbor",
+      "bbox": [
+        902,
+        538,
+        238,
+        139
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#65A985",
+      "lineWidth": 2
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgbepc32",
+      "id": "31",
+      "name": "harbor-title",
+      "bbox": [
+        912,
+        550,
+        218,
+        31
+      ],
+      "geometry": "rect",
+      "text": "Harbor",
+      "textPreview": "Harbor",
+      "resolvedFontSize": 19.17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Harbor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Harbor",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Harbor",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtkfexkr",
+      "id": "32",
+      "name": "harbor-body",
+      "bbox": [
+        912,
+        585,
+        218,
+        83
+      ],
+      "geometry": "rect",
+      "text": "私有镜像仓库\nTag / 版本 / 制品交付",
+      "textPreview": "私有镜像仓库 | Tag / 版本 / 制品交付",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "私有镜像仓库"
+          },
+          {
+            "index": 2,
+            "text": "Tag / 版本 / 制品交付"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "私有镜像仓库",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "私有镜像仓库",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Tag / 版本 / 制品交付",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tag / 版本 / 制品交付",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rutwn2lc",
+      "id": "33",
+      "name": "git-config",
+      "bbox": [
+        1206,
+        538,
+        242,
+        139
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#65A985",
+      "lineWidth": 2
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0jmxkr2t",
+      "id": "34",
+      "name": "git-config-title",
+      "bbox": [
+        1216,
+        550,
+        222,
+        31
+      ],
+      "geometry": "rect",
+      "text": "Git 配置仓库",
+      "textPreview": "Git 配置仓库",
+      "resolvedFontSize": 19.17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Git 配置仓库"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Git 配置仓库",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Git 配置仓库",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kvetc3e",
+      "id": "35",
+      "name": "git-config-body",
+      "bbox": [
+        1216,
+        585,
+        222,
+        83
+      ],
+      "geometry": "rect",
+      "text": "租户化 YAML 清单\n唯一事实源 · 可审计回滚",
+      "textPreview": "租户化 YAML 清单 | 唯一事实源 · 可审计回滚",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "租户化 YAML 清单"
+          },
+          {
+            "index": 2,
+            "text": "唯一事实源 · 可审计回滚"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "租户化 YAML 清单",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "租户化 YAML 清单",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "唯一事实源 · 可审计回滚",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "唯一事实源 · 可审计回滚",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eh4fihkn",
+      "id": "36",
+      "name": "argocd-appset",
+      "bbox": [
+        1514,
+        538,
+        305,
+        139
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#65A985",
+      "lineWidth": 2
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidwrml8",
+      "id": "37",
+      "name": "argocd-appset-title",
+      "bbox": [
+        1524,
+        550,
+        285,
+        31
+      ],
+      "geometry": "rect",
+      "text": "Argo CD ApplicationSet",
+      "textPreview": "Argo CD ApplicationSet",
+      "resolvedFontSize": 19.17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.83,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Argo CD ApplicationSet"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Argo CD ApplicationSet",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Argo CD ApplicationSet",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onmxor2p",
+      "id": "38",
+      "name": "argocd-appset-body",
+      "bbox": [
+        1524,
+        585,
+        285,
+        83
+      ],
+      "geometry": "rect",
+      "text": "按租户生成 Application\n自动同步 · 漂移修复 · 回滚",
+      "textPreview": "按租户生成 Application | 自动同步 · 漂移修复 · 回滚",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "按租户生成 Application"
+          },
+          {
+            "index": 2,
+            "text": "自动同步 · 漂移修复 · 回滚"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "按租户生成 Application",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "按租户生成 Application",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "自动同步 · 漂移修复 · 回滚",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "自动同步 · 漂移修复 · 回滚",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 39,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9ofyxw3a",
+      "id": "39",
+      "name": "kubernetes-cluster",
+      "bbox": [
+        205,
+        700,
+        1188,
+        284
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#E4872D",
+      "lineWidth": 2
+    },
+    {
+      "order": 40,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9k36hs3e",
+      "id": "40",
+      "name": "cluster-title",
+      "bbox": [
+        238,
+        714,
+        500,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Kubernetes 智能算力集群",
+      "textPreview": "Kubernetes 智能算力集群",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kubernetes 智能算力集群"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kubernetes 智能算力集群",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kubernetes 智能算力集群",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 41,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jupon2t",
+      "id": "41",
+      "name": "tenant-a",
+      "bbox": [
+        239,
+        761,
+        548,
+        184
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF8EF",
+      "lineColor": "#E3AE6D",
+      "lineWidth": 2
+    },
+    {
+      "order": 42,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nilofil8",
+      "id": "42",
+      "name": "tenant-b",
+      "bbox": [
+        811,
+        761,
+        548,
+        184
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF8EF",
+      "lineColor": "#E3AE6D",
+      "lineWidth": 2
+    },
+    {
+      "order": 43,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhc7mdkn",
+      "id": "43",
+      "name": "tenant-a-head",
+      "bbox": [
+        255,
+        777,
+        516,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "Tenant A Namespace",
+      "textPreview": "Tenant A Namespace",
+      "resolvedFontSize": 18.94,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.9,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tenant A Namespace"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tenant A Namespace",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tenant A Namespace",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F7D8AB",
+      "lineColor": "#F7D8AB",
+      "lineWidth": 2
+    },
+    {
+      "order": 44,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lg36d83i",
+      "id": "44",
+      "name": "tenant-b-head",
+      "bbox": [
+        827,
+        777,
+        516,
+        36
+      ],
+      "geometry": "roundRect",
+      "text": "Tenant B Namespace",
+      "textPreview": "Tenant B Namespace",
+      "resolvedFontSize": 18.94,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.9,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tenant B Namespace"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tenant B Namespace",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tenant B Namespace",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F7D8AB",
+      "lineColor": "#F7D8AB",
+      "lineWidth": 2
+    },
+    {
+      "order": 45,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fu5k32x",
+      "id": "45",
+      "name": "tenant-a-resources",
+      "bbox": [
+        267,
+        831,
+        275,
+        93
+      ],
+      "geometry": "rect",
+      "text": "ServiceAccount + RoleBinding\nResourceQuota + LimitRange\nDeployment / Pod",
+      "textPreview": "ServiceAccount + RoleBinding | ResourceQuota + LimitRange | Deployment / Pod",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ServiceAccount + RoleBinding"
+          },
+          {
+            "index": 2,
+            "text": "ResourceQuota + LimitRange"
+          },
+          {
+            "index": 3,
+            "text": "Deployment / Pod"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ServiceAccount + RoleBinding",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ServiceAccount + RoleBinding",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "ResourceQuota + LimitRange",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ResourceQuota + LimitRange",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Deployment / Pod",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deployment / Pod",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 46,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zelobilc",
+      "id": "46",
+      "name": "tenant-b-resources",
+      "bbox": [
+        839,
+        831,
+        275,
+        93
+      ],
+      "geometry": "rect",
+      "text": "ServiceAccount + RoleBinding\nResourceQuota + LimitRange\nDeployment / Pod",
+      "textPreview": "ServiceAccount + RoleBinding | ResourceQuota + LimitRange | Deployment / Pod",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ServiceAccount + RoleBinding"
+          },
+          {
+            "index": 2,
+            "text": "ResourceQuota + LimitRange"
+          },
+          {
+            "index": 3,
+            "text": "Deployment / Pod"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ServiceAccount + RoleBinding",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ServiceAccount + RoleBinding",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "ResourceQuota + LimitRange",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ResourceQuota + LimitRange",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Deployment / Pod",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deployment / Pod",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 47,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydcnidkr",
+      "id": "47",
+      "name": "service-a",
+      "bbox": [
+        551,
+        832,
+        196,
+        83
+      ],
+      "geometry": "roundRect",
+      "text": "推理服务 A\nCPU / GPU · Service",
+      "textPreview": "推理服务 A | CPU / GPU · Service",
+      "resolvedFontSize": 18.88,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.99,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "推理服务 A"
+          },
+          {
+            "index": 2,
+            "text": "CPU / GPU ·"
+          },
+          {
+            "index": 3,
+            "text": "Service"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "推理服务 A",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "推理服务 A",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CPU / GPU · Service",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CPU / GPU · Service",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#E3AE6D",
+      "lineWidth": 2
+    },
+    {
+      "order": 48,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5c76pc3m",
+      "id": "48",
+      "name": "service-b",
+      "bbox": [
+        1123,
+        832,
+        196,
+        83
+      ],
+      "geometry": "roundRect",
+      "text": "推理服务 B\nCPU / GPU · Service",
+      "textPreview": "推理服务 B | CPU / GPU · Service",
+      "resolvedFontSize": 18.88,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.99,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "推理服务 B"
+          },
+          {
+            "index": 2,
+            "text": "CPU / GPU ·"
+          },
+          {
+            "index": 3,
+            "text": "Service"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "推理服务 B",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "推理服务 B",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CPU / GPU · Service",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CPU / GPU · Service",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#E3AE6D",
+      "lineWidth": 2
+    },
+    {
+      "order": 49,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbepw721",
+      "id": "49",
+      "name": "observability",
+      "bbox": [
+        1423,
+        700,
+        396,
+        284
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#E4872D",
+      "lineWidth": 2
+    },
+    {
+      "order": 50,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x83q90j",
+      "id": "50",
+      "name": "observability-title",
+      "bbox": [
+        1455,
+        714,
+        330,
+        38
+      ],
+      "geometry": "rect",
+      "text": "可观测与告警中心",
+      "textPreview": "可观测与告警中心",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.93,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "可观测与告警中心"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "可观测与告警中心",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "可观测与告警中心",
+              "fontSize": 27,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 51,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3yh4je14",
+      "id": "51",
+      "name": "prometheus",
+      "bbox": [
+        1457,
+        765,
+        328,
+        66
+      ],
+      "geometry": "roundRect",
+      "text": "Prometheus\n集群 / 服务 / 推理指标采集",
+      "textPreview": "Prometheus | 集群 / 服务 / 推理指标采集",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Prometheus"
+          },
+          {
+            "index": 2,
+            "text": "集群 / 服务 / 推理指标采集"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prometheus",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prometheus",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "集群 / 服务 / 推理指标采集",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "集群 / 服务 / 推理指标采集",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF1E3",
+      "lineColor": "#FFF1E3",
+      "lineWidth": 2
+    },
+    {
+      "order": 52,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ojqlsjip",
+      "id": "52",
+      "name": "grafana",
+      "bbox": [
+        1457,
+        846,
+        158,
+        91
+      ],
+      "geometry": "roundRect",
+      "text": "Grafana\n多租户看板",
+      "textPreview": "Grafana | 多租户看板",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Grafana"
+          },
+          {
+            "index": 2,
+            "text": "多租户看板"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Grafana",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Grafana",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "多租户看板",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "多租户看板",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF1E3",
+      "lineColor": "#FFF1E3",
+      "lineWidth": 2
+    },
+    {
+      "order": 53,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzml4ja",
+      "id": "53",
+      "name": "alert-rules",
+      "bbox": [
+        1627,
+        846,
+        158,
+        91
+      ],
+      "geometry": "roundRect",
+      "text": "Alert Rules\n资源 / 延迟\n流量 / 异常",
+      "textPreview": "Alert Rules | 资源 / 延迟 | 流量 / 异常",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#17324A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Alert Rules"
+          },
+          {
+            "index": 2,
+            "text": "资源 / 延迟"
+          },
+          {
+            "index": 3,
+            "text": "流量 / 异常"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Alert Rules",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Alert Rules",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "资源 / 延迟",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "资源 / 延迟",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "流量 / 异常",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "流量 / 异常",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#17324A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF1E3",
+      "lineColor": "#FFF1E3",
+      "lineWidth": 2
+    },
+    {
+      "order": 54,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uto3mpk7",
+      "id": "54",
+      "bbox": [
+        660,
+        196,
+        280,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#1479C9",
+      "lineWidth": 4
+    },
+    {
+      "order": 55,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fuh4fu1s",
+      "id": "55",
+      "bbox": [
+        451.5,
+        247,
+        58.5,
+        96
+      ],
+      "horizontalFlip": true,
+      "geometry": "bentConnector4",
+      "lineColor": "#21364A",
+      "lineWidth": 3
+    },
+    {
+      "order": 56,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvqlozid",
+      "id": "56",
+      "bbox": [
+        499,
+        607.5,
+        66,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#21364A",
+      "lineWidth": 3
+    },
+    {
+      "order": 57,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwzmh4jy",
+      "id": "57",
+      "bbox": [
+        836,
+        607.5,
+        66,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#21364A",
+      "lineWidth": 3
+    },
+    {
+      "order": 58,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yps3yt0r",
+      "id": "58",
+      "bbox": [
+        1140,
+        607.5,
+        66,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#21364A",
+      "lineWidth": 3
+    },
+    {
+      "order": 59,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zq14ry1c",
+      "id": "59",
+      "bbox": [
+        1448,
+        607.5,
+        66,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#21364A",
+      "lineWidth": 3
+    },
+    {
+      "order": 60,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vut0jqho",
+      "id": "60",
+      "bbox": [
+        799,
+        677,
+        867.5,
+        23
+      ],
+      "horizontalFlip": true,
+      "geometry": "bentConnector4",
+      "lineColor": "#21364A",
+      "lineWidth": 3
+    },
+    {
+      "order": 61,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/atkjql03",
+      "id": "61",
+      "bbox": [
+        1393,
+        842,
+        30,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#E4872D",
+      "lineWidth": 3
+    },
+    {
+      "order": 62,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwvilgzu",
+      "id": "62",
+      "bbox": [
+        1621,
+        831,
+        85,
+        15
+      ],
+      "horizontalFlip": true,
+      "verticalFlip": true,
+      "geometry": "straightConnector1",
+      "lineColor": "#E4872D",
+      "lineWidth": 3
+    },
+    {
+      "order": 63,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wvm1svi9",
+      "id": "63",
+      "name": "flow-1",
+      "bbox": [
+        470,
+        247,
+        240,
+        28
+      ],
+      "geometry": "rect",
+      "text": "① 登录 / 创建服务",
+      "textPreview": "① 登录 / 创建服务",
+      "resolvedFontSize": 16.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.98,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "① 登录 / 创建服务"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "① 登录 / 创建服务",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "① 登录 / 创建服务",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 64,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jyd0nqhk",
+      "id": "64",
+      "name": "flow-2",
+      "bbox": [
+        630,
+        512,
+        120,
+        28
+      ],
+      "geometry": "rect",
+      "text": "② 构建",
+      "textPreview": "② 构建",
+      "resolvedFontSize": 16.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.98,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "② 构建"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "② 构建",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "② 构建",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 65,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ix4julgz",
+      "id": "65",
+      "name": "flow-3",
+      "bbox": [
+        958,
+        512,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "③ 推送镜像",
+      "textPreview": "③ 推送镜像",
+      "resolvedFontSize": 16.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.98,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "③ 推送镜像"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "③ 推送镜像",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "③ 推送镜像",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 66,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50vip0zq",
+      "id": "66",
+      "name": "flow-4",
+      "bbox": [
+        1260,
+        512,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "④ 写入声明",
+      "textPreview": "④ 写入声明",
+      "resolvedFontSize": 16.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.98,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "④ 写入声明"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "④ 写入声明",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "④ 写入声明",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 67,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzm1wvy5",
+      "id": "67",
+      "name": "flow-5",
+      "bbox": [
+        1602,
+        512,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "⑤ 持续同步",
+      "textPreview": "⑤ 持续同步",
+      "resolvedFontSize": 16.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.98,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "⑤ 持续同步"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "⑤ 持续同步",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "⑤ 持续同步",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 68,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x0rahw",
+      "id": "68",
+      "name": "flow-7",
+      "bbox": [
+        1363,
+        872,
+        115,
+        28
+      ],
+      "geometry": "rect",
+      "text": "⑦ Metrics",
+      "textPreview": "⑦ Metrics",
+      "resolvedFontSize": 16.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#42596B",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.98,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "⑦ Metrics"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "⑦ Metrics",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#42596B",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "⑦ Metrics",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#42596B",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 69,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/614jy5gb",
+      "id": "69",
+      "name": "security-footer",
+      "bbox": [
+        205,
+        1006,
+        1614,
+        48
+      ],
+      "geometry": "roundRect",
+      "text": "双层安全体系：平台层 JWT + Redis 认证　｜　集群层 Kubernetes RBAC 授权　｜　Namespace 级资源与权限隔离",
+      "textPreview": "双层安全体系：平台层 JWT + Redis 认证　｜　集群层 Kubernetes RBAC 授权　｜　Namespace 级资源与权限隔离",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 8,
+          "bottom": 4,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "双层安全体系：平台层 JWT + Redis 认证　｜　集群层 Kubernetes RBAC 授权　｜　Namespace 级资源与权限隔离"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "双层安全体系：平台层 JWT + Redis 认证　｜　集群层 Kubernetes RBAC 授权　｜　Namespace 级资源与权限隔离",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "双层安全体系：平台层 JWT + Redis 认证　｜　集群层 Kubernetes RBAC 授权　｜　Namespace 级资源与权限隔离",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#17324A",
+      "lineColor": "#17324A",
+      "lineWidth": 2
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,4 @@
+No external sources were used. The slide content is based on the user's project description and local code inspection.
+Code basis for Docker build context: D:/ruoyi-go-master/ruoyi-go-master/app/service/harbor_pullandpush_service.go (prepareBuildContextTar and dockerBuild).
+Code basis for JWT/Redis authentication: D:/ruoyi-go-master/ruoyi-go-master/app/middleware/auth_middleware.go.
+Code basis for ServiceAccount/RoleBinding/Role: D:/ruoyi-go-master/ruoyi-go-master/app/service/k8s_rbac_service.go.
