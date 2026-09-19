@@ -1,0 +1,491 @@
+basePath: /api/v1
+definitions:
+  dto.CreateTenantRequest:
+    properties:
+      password:
+        type: string
+      resourceQuota:
+        $ref: '#/definitions/model.K8sResourceQuota'
+      username:
+        type: string
+    required:
+    - password
+    - username
+    type: object
+  dto.TenantLoginRequest:
+    properties:
+      password:
+        type: string
+      username:
+        type: string
+    required:
+    - password
+    - username
+    type: object
+  dto.TenantLoginResponse:
+    properties:
+      token:
+        type: string
+    type: object
+  dto.UpdatePasswordRequest:
+    properties:
+      password:
+        type: string
+    required:
+    - password
+    type: object
+  dto.UpdateTenantRequest:
+    properties:
+      password:
+        description: 可选，更新密码
+        type: string
+      status:
+        description: 可选，更新状态
+        type: string
+    type: object
+  model.K8sResourceQuota:
+    properties:
+      cpuLimit:
+        description: CPU限制
+        type: string
+      cpuRequest:
+        description: CPU请求
+        type: string
+      gpuLimit:
+        description: GPU限制
+        type: string
+      gpuMemory:
+        description: GPU显存限制
+        type: string
+      memoryLimit:
+        description: 内存限制
+        type: string
+      memoryRequest:
+        description: 内存请求
+        type: string
+    type: object
+  response.Response:
+    properties:
+      code:
+        type: integer
+      data:
+        additionalProperties: true
+        type: object
+      msg:
+        type: string
+      status:
+        type: integer
+    type: object
+host: 39.96.159.232:3000
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: RuoYi-Go 后台管理系统 API 文档
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: RuoYi-Go API
+  version: "1.0"
+paths:
+  /tenant:
+    post:
+      consumes:
+      - application/json
+      description: 创建新的租户账号，包括用户信息和资源配额，返回用户的SA的token
+      parameters:
+      - description: 创建租户请求参数
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.CreateTenantRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 创建成功
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Response'
+            - properties:
+                data:
+                  type: string
+              type: object
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "409":
+          description: 用户名已存在
+          schema:
+            $ref: '#/definitions/response.Response'
+      summary: 创建新租户
+      tags:
+      - 租户管理
+  /tenant/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: 根据租户ID删除租户账号及其相关资源
+      parameters:
+      - description: 租户ID
+        in: path
+        minimum: 1
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 删除成功
+          schema:
+            $ref: '#/definitions/response.Response'
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 未授权
+          schema:
+            $ref: '#/definitions/response.Response'
+        "403":
+          description: 权限不足
+          schema:
+            $ref: '#/definitions/response.Response'
+        "404":
+          description: 租户不存在
+          schema:
+            $ref: '#/definitions/response.Response'
+      security:
+      - ApiKeyAuth: []
+      summary: 通过ID删除租户
+      tags:
+      - 租户管理
+    put:
+      consumes:
+      - application/json
+      description: 根据租户ID更新租户的基本信息，包括密码和状态
+      parameters:
+      - description: 租户ID
+        in: path
+        minimum: 1
+        name: id
+        required: true
+        type: integer
+      - description: 更新请求参数
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.UpdateTenantRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 更新成功
+          schema:
+            $ref: '#/definitions/response.Response'
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 未授权
+          schema:
+            $ref: '#/definitions/response.Response'
+        "403":
+          description: 权限不足
+          schema:
+            $ref: '#/definitions/response.Response'
+        "404":
+          description: 租户不存在
+          schema:
+            $ref: '#/definitions/response.Response'
+      security:
+      - ApiKeyAuth: []
+      summary: 通过ID更新租户信息
+      tags:
+      - 租户管理
+  /tenant/{id}/quota:
+    put:
+      consumes:
+      - application/json
+      description: 根据租户ID更新其Kubernetes资源配额限制
+      parameters:
+      - description: 租户ID
+        in: path
+        minimum: 1
+        name: id
+        required: true
+        type: integer
+      - description: 资源配额参数
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/model.K8sResourceQuota'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 更新成功
+          schema:
+            $ref: '#/definitions/response.Response'
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 未授权
+          schema:
+            $ref: '#/definitions/response.Response'
+        "403":
+          description: 权限不足
+          schema:
+            $ref: '#/definitions/response.Response'
+        "404":
+          description: 租户不存在
+          schema:
+            $ref: '#/definitions/response.Response'
+      security:
+      - ApiKeyAuth: []
+      summary: 通过ID更新租户资源配额
+      tags:
+      - 租户管理
+  /tenant/by-username/{username}:
+    delete:
+      consumes:
+      - application/json
+      description: 根据用户名删除租户账号及其相关资源
+      parameters:
+      - description: 用户名
+        in: path
+        minLength: 1
+        name: username
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 删除成功
+          schema:
+            $ref: '#/definitions/response.Response'
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 未授权
+          schema:
+            $ref: '#/definitions/response.Response'
+        "403":
+          description: 权限不足
+          schema:
+            $ref: '#/definitions/response.Response'
+        "404":
+          description: 租户不存在
+          schema:
+            $ref: '#/definitions/response.Response'
+      security:
+      - ApiKeyAuth: []
+      summary: 通过用户名删除租户
+      tags:
+      - 租户管理
+    put:
+      consumes:
+      - application/json
+      description: 根据用户名更新租户的基本信息，包括密码和状态
+      parameters:
+      - description: 用户名
+        in: path
+        minLength: 1
+        name: username
+        required: true
+        type: string
+      - description: 更新请求参数
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.UpdateTenantRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 更新成功
+          schema:
+            $ref: '#/definitions/response.Response'
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 未授权
+          schema:
+            $ref: '#/definitions/response.Response'
+        "403":
+          description: 权限不足
+          schema:
+            $ref: '#/definitions/response.Response'
+        "404":
+          description: 租户不存在
+          schema:
+            $ref: '#/definitions/response.Response'
+      security:
+      - ApiKeyAuth: []
+      summary: 通过用户名更新租户信息
+      tags:
+      - 租户管理
+  /tenant/by-username/{username}/quota:
+    put:
+      consumes:
+      - application/json
+      description: 根据用户名更新其Kubernetes资源配额限制
+      parameters:
+      - description: 用户名
+        in: path
+        minLength: 1
+        name: username
+        required: true
+        type: string
+      - description: 资源配额参数
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/model.K8sResourceQuota'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 更新成功
+          schema:
+            $ref: '#/definitions/response.Response'
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 未授权
+          schema:
+            $ref: '#/definitions/response.Response'
+        "403":
+          description: 权限不足
+          schema:
+            $ref: '#/definitions/response.Response'
+        "404":
+          description: 租户不存在
+          schema:
+            $ref: '#/definitions/response.Response'
+      security:
+      - ApiKeyAuth: []
+      summary: 通过用户名更新租户资源配额
+      tags:
+      - 租户管理
+  /tenant/login:
+    post:
+      consumes:
+      - application/json
+      description: 租户用户登录接口，验证用户名和密码，返回JWT令牌
+      parameters:
+      - description: 登录请求参数
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.TenantLoginRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 登录成功
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Response'
+            - properties:
+                data:
+                  $ref: '#/definitions/dto.TenantLoginResponse'
+              type: object
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 用户名或密码错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "403":
+          description: 账户已停用
+          schema:
+            $ref: '#/definitions/response.Response'
+      summary: 租户登录
+      tags:
+      - 租户管理
+  /tenant/logout:
+    post:
+      consumes:
+      - application/json
+      description: 退出当前用户的登录状态，清除token
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 退出成功
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 未授权
+          schema:
+            $ref: '#/definitions/response.Response'
+      security:
+      - ApiKeyAuth: []
+      summary: 退出登录
+      tags:
+      - 租户管理
+  /tenant/password:
+    put:
+      consumes:
+      - application/json
+      description: 已登录用户修改自己的密码
+      parameters:
+      - description: 密码更新请求参数
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.UpdatePasswordRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 密码修改成功
+          schema:
+            $ref: '#/definitions/response.Response'
+        "400":
+          description: 请求参数错误
+          schema:
+            $ref: '#/definitions/response.Response'
+        "401":
+          description: 未授权
+          schema:
+            $ref: '#/definitions/response.Response'
+        "404":
+          description: 用户不存在
+          schema:
+            $ref: '#/definitions/response.Response'
+      security:
+      - ApiKeyAuth: []
+      summary: 修改当前用户密码
+      tags:
+      - 租户管理
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

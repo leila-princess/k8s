@@ -1,0 +1,7 @@
+./harbor_image.go
+./k8s_deployment.go
+./k8s_namespace.go
+./k8s_resource_quota.go
+./pipeline.go
+./task.go
+./tenant_user.go

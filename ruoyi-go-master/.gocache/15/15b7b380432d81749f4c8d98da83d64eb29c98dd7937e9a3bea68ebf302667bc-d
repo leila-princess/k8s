@@ -1,0 +1,6 @@
+./deployment_controller.go
+./harbor_controller.go
+./k8s_controller.go
+./pipeline_controller.go
+./task_controller.go
+./tenant_controller.go
